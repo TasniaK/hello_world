@@ -1,7 +1,5 @@
-import pdb
 
 def censor(text, word):
-	#pdb.set_trace()
 	if word in text:
 		text = text.replace(word, ("*" * len(word)))
 	return text
